@@ -1,483 +1,113 @@
-
-<!DOCTYPE html>
-<html class="scroll-smooth" lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>CryptoNEXT '26 | Faculty Development Programme, Presidency University</title>
-<meta name="description" content="Five-day FDP on post-quantum security. 2-6 November 2026, Presidency University, Kolkata. Registration fee: NIL."/>
-<meta name="google-site-verification" content="TyIv0EeOCzhA4b-bO60z8kO1_lOz2aKwR0EbNm2VgPY" />
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500;1,6..72,600&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<style>
-html,body{margin:0;padding:0}
-body{overscroll-behavior:none}
-::-webkit-scrollbar{display:none}
-section[id]{scroll-margin-top:4rem}
-.font-serif-italic{font-family:'Newsreader',serif;font-style:italic}
-.material-symbols-outlined{font-family:'Material Symbols Outlined'}
-</style>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script>
-tailwind.config={theme:{extend:{colors:{"surface":"#f8fafc","surface-container-low":"#f1f5f9","on-surface":"#0f172a","on-surface-variant":"#334155","primary":"#1d4ed8","primary-dark":"#1e40af","secondary":"#2563eb","outline-light":"#cbd5e1"},fontFamily:{"display-hero":["Space Grotesk","sans-serif"],"headline-lg":["Space Grotesk","sans-serif"],"headline-md":["Space Grotesk","sans-serif"],"headline-sm":["Space Grotesk","sans-serif"],"label-lg":["JetBrains Mono","monospace"],"label-md":["JetBrains Mono","monospace"],"label-sm":["JetBrains Mono","monospace"],"body-lg":["Inter","sans-serif"],"body-md":["Inter","sans-serif"],"body-sm":["Inter","sans-serif"]}}}};
-</script>
-</head>
-
-<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-white">
-
-<!-- NAV -->
-<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-on-surface">
-<div class="h-16 w-full px-4 md:px-8 flex items-center justify-between">
-<div class="flex items-center gap-3 h-full">
-<span class="font-label-lg text-xs md:text-sm tracking-tight uppercase font-bold">CryptoNEXT <span class="text-primary">//</span> '26</span>
-</div>
-<nav class="hidden lg:flex items-center h-full border-l border-on-surface">
-<a class="px-5 h-full flex items-center border-r border-on-surface font-label-md text-xs uppercase tracking-wider hover:bg-primary hover:text-white transition-colors" href="#hero">Overview</a>
-<a class="px-5 h-full flex items-center border-r border-on-surface font-label-md text-xs uppercase tracking-wider hover:bg-primary hover:text-white transition-colors" href="#about">About</a>
-<a class="px-5 h-full flex items-center border-r border-on-surface font-label-md text-xs uppercase tracking-wider hover:bg-primary hover:text-white transition-colors" href="#speakers">Speakers</a>
-<a class="px-5 h-full flex items-center border-r border-on-surface font-label-md text-xs uppercase tracking-wider hover:bg-primary hover:text-white transition-colors" href="#schedule">Schedule</a>
-<a class="px-5 h-full flex items-center border-r border-on-surface font-label-md text-xs uppercase tracking-wider hover:bg-primary hover:text-white transition-colors" href="#register">Register</a>
-</nav>
-<a class="inline-flex items-center bg-primary text-white px-4 md:px-5 py-2 font-label-sm text-xs font-bold uppercase tracking-wider hover:bg-on-surface transition-colors border border-on-surface" href="#register">Register · Free →</a>
-</div>
-</header>
-
-<main class="w-full pt-16 min-h-screen">
-
-<!-- 01 HERO -->
-<section id="hero" class="w-full border-b border-on-surface">
-
-<!-- UPDATED: Main hero container now uses the full available width -->
-<div class="w-full p-6 md:p-10 lg:p-12 flex flex-col gap-6">
-
-<div class="flex flex-wrap items-center gap-x-8 gap-y-4">
-<img class="h-14 md:h-16 w-auto object-contain" src="Presidency_University,_Kolkata_Logo.svg.webp" alt="Presidency University, Kolkata"/>
-<img class="h-48 md:h-60 -my-[72px] md:-my-[94px] relative top-[8px] md:top-[10px] w-auto object-contain pointer-events-none" src="croww%20logo.png" alt="CROW"/>
-<img class="h-14 md:h-16 w-auto object-contain" src="isi_logo_navy_transparent.svg" alt="Indian Statistical Institute, Kolkata"/>
-<img class="h-14 md:h-16 w-auto object-contain" src="isea_backgroundless.svg" alt="ISEA"/>
-</div>
-
-<div class="space-y-3">
-<h1 class="font-display-hero text-6xl md:text-7xl xl:text-8xl font-bold tracking-tight leading-none"><span class="font-serif-italic font-normal tracking-normal">Crypto</span><span class="text-primary">NEXT</span></h1>
-<p class="font-headline-md text-lg md:text-2xl font-bold tracking-tight">Mathematical and Engineering Perspectives on Post-Quantum Security</p>
-<div class="inline-block bg-primary text-white font-label-lg text-sm md:text-base font-bold uppercase tracking-wider px-3 py-1">Five-Day Faculty Development Programme</div>
-<p class="font-body-sm text-sm text-on-surface-variant pt-1"><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold">Organized by</span>&nbsp; Dept. of Mathematics, Presidency University · CROW</p>
-</div>
-
-<!-- PROGRAMME OVERVIEW -->
-<!-- UPDATED: Removed max-w-5xl so the overview stretches across the hero width -->
-<div class="w-full border border-outline-light bg-white">
-
-<!-- Introduction -->
-<div class="p-5 md:p-7">
-<div class="flex items-center gap-2 mb-3">
-<span class="material-symbols-outlined text-primary text-xl">account_balance</span>
-<span class="font-label-sm text-xs uppercase tracking-widest font-bold text-primary">About the Programme</span>
-</div>
-
-<p class="font-body-md text-sm md:text-base leading-relaxed text-on-surface-variant">
-Presidency University, Kolkata proposes to host a five-day
-Faculty Development Program (FDP) titled
-<strong class="text-on-surface">
-CryptoNext: Mathematical and Engineering Perspectives on
-Post-Quantum Security
-</strong>, scheduled for
-<strong class="text-on-surface">November 2–6, 2026</strong>.
-The programme is organized in joint collaboration with our
-Hub institute, the Indian Statistical Institute (ISI), Kolkata,
-under the Information Security Education and Awareness (ISEA)
-Project Phase-III, a flagship initiative of the Ministry of
-Electronics and Information Technology (MeitY), Government
-of India.
-</p>
-</div>
-
-<!-- Programme at a glance -->
-<div class="border-t border-outline-light bg-surface-container-low px-5 md:px-7 pt-5 pb-5 md:pb-7">
-<span class="font-label-sm text-xs uppercase tracking-widest font-bold text-primary">Programme at a glance</span>
-
-<div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-outline-light border border-outline-light">
-
-<div class="flex gap-3 lg:flex-col lg:gap-2 bg-white p-4">
-<span class="material-symbols-outlined text-primary text-2xl">school</span>
-<div>
-<p class="font-semibold text-sm text-on-surface">For STEM Faculty</p>
-<p class="text-xs leading-relaxed mt-1 text-on-surface-variant">Mathematics, Statistics, Engineering and allied disciplines.</p>
-</div>
-</div>
-
-<div class="flex gap-3 lg:flex-col lg:gap-2 bg-white p-4">
-<span class="material-symbols-outlined text-primary text-2xl">security</span>
-<div>
-<p class="font-semibold text-sm text-on-surface">Core Academic Themes</p>
-<p class="text-xs leading-relaxed mt-1 text-on-surface-variant">Cryptography, cybersecurity, cybercrime and post-quantum cryptography.</p>
-</div>
-</div>
-
-<div class="flex gap-3 lg:flex-col lg:gap-2 bg-white p-4">
-<span class="material-symbols-outlined text-primary text-2xl">hub</span>
-<div>
-<p class="font-semibold text-sm text-on-surface">Joint Collaboration</p>
-<p class="text-xs leading-relaxed mt-1 text-on-surface-variant">Indian Statistical Institute, Kolkata · ISEA Phase-III · MeitY.</p>
-</div>
-</div>
-
-<div class="flex gap-3 lg:flex-col lg:gap-2 bg-white p-4">
-<span class="material-symbols-outlined text-primary text-2xl">workspace_premium</span>
-<div>
-<p class="font-semibold text-sm text-on-surface">Certificate on Completion</p>
-<p class="text-xs leading-relaxed mt-1 text-on-surface-variant">Formal certificate from MeitY, Government of India, upon successful completion by registered participants.</p>
-</div>
-</div>
-
-</div>
-</div>
-
-<!-- Expandable full description -->
-<details class="group border-t border-outline-light">
-<summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 md:px-7 py-4 font-label-sm text-xs md:text-sm font-bold uppercase tracking-wider text-primary hover:text-on-surface">
-<span class="flex items-center gap-2">
-<span class="material-symbols-outlined text-xl">subject</span>
-Read the complete programme description
-</span>
-<span class="material-symbols-outlined shrink-0 transition-transform duration-200 group-open:rotate-180">expand_more</span>
-</summary>
-
-<div class="space-y-4 px-5 md:px-7 pb-5 md:pb-7 font-body-md text-sm md:text-base leading-relaxed text-on-surface-variant">
-<p>
-The FDP is uniquely designed for faculty members across
-Mathematics, Statistics, Engineering, and allied STEM
-disciplines who are interested in the intersection of
-data security and cryptography.
-</p>
-
-<p>
-The academic scope of the programme covers the fundamental
-principles of cryptography, cybersecurity, and cybercrime,
-advancing into the critical, modern domain of post-quantum
-cryptography. The sessions are uniquely structured to provide
-both rigorous mathematical foundations and practical
-engineering perspectives.
-</p>
-
-<div class="flex items-start gap-3 border-l-4 border-primary bg-surface-container-low p-4">
-<span class="material-symbols-outlined text-primary text-2xl">verified</span>
-<p>
-Upon successful completion of the FDP, registered
-participants will receive a formal certificate from
-the Ministry of Electronics and Information Technology
-(MeitY), Government of India.
-</p>
-</div>
-
-<p>
-Final candidate selections will be finalized and communicated
-to the respective participants via their registered email
-addresses.
-</p>
-
-<div class="border border-amber-300 bg-amber-50 p-4 md:p-5">
-<div class="flex items-center gap-2 mb-2">
-<span class="material-symbols-outlined text-amber-700">campaign</span>
-<span class="font-label-sm text-xs uppercase tracking-wider font-bold text-amber-800">Important · Limited Seats</span>
-</div>
-<p class="text-sm md:text-base leading-relaxed text-slate-700">
-Seats are limited! Selection will be based on a
-first-come, first-served basis, as well as the applicant's
-teaching background, research experience, and area of
-expertise. Shortlisted candidates will be notified via email.
-</p>
-</div>
-</div>
-</details>
-
-</div>
-<!-- END PROGRAMME OVERVIEW -->
-
-<!-- UPDATED: Removed max-w-5xl so dates, venue and fee use the full available width -->
-<div class="w-full border border-on-surface bg-white p-4 grid grid-cols-1 md:grid-cols-3 gap-4 font-label-md text-xs">
-
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-[20px]">calendar_today</span>
-<div>
-<span class="text-on-surface-variant block uppercase">Dates</span>
-<strong>2 — 6 November 2026</strong>
-</div>
-</div>
-
-<div class="flex items-center gap-2 md:border-l border-outline-light md:pl-4">
-<span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
-<div>
-<span class="text-on-surface-variant block uppercase">Venue</span>
-<strong>PCM Auditorium, Presidency University</strong>
-</div>
-</div>
-
-<div class="flex items-center gap-2 md:border-l border-outline-light md:pl-4">
-<span class="material-symbols-outlined text-primary text-[20px]">payments</span>
-<div>
-<span class="text-on-surface-variant block uppercase">Fee</span>
-<strong class="text-primary">NIL</strong>
-</div>
-</div>
-
-</div>
-
-<a class="group inline-flex w-full sm:w-auto sm:self-start items-center justify-between gap-8 bg-primary text-white px-8 py-4 font-label-md text-sm uppercase tracking-wider font-bold hover:bg-on-surface transition-colors border border-on-surface" href="#register">
-Register now
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</a>
-
-</div>
-</section>
-
-<!-- 02 ABOUT -->
-<section id="about" class="w-full border-b border-on-surface">
-<div class="px-6 md:px-8 py-5 border-b border-on-surface bg-white flex items-baseline gap-3">
-<span class="font-display-hero text-2xl md:text-3xl font-bold text-primary">02</span>
-<span class="text-primary font-bold text-xl">//</span>
-<h2 class="font-headline-lg text-2xl md:text-3xl uppercase tracking-tight font-bold">About</h2>
-</div>
-
-<div class="grid grid-cols-1 lg:grid-cols-12">
-<div class="lg:col-span-5 p-6 md:p-10 border-b lg:border-b-0 lg:border-r border-on-surface">
-<p class="font-headline-md text-2xl md:text-3xl font-bold leading-snug">From cryptography fundamentals to post-quantum security.</p>
-<p class="font-body-md text-base text-on-surface-variant mt-4 border-l-4 border-primary pl-4">Rigorous mathematics, practical engineering. Organised under ISEA Project Phase-III, an initiative of MeitY, Govt. of India.</p>
-</div>
-
-<div class="lg:col-span-7 p-6 md:p-10 bg-white grid grid-cols-1 sm:grid-cols-2 gap-4">
-<div class="p-5 border border-on-surface bg-surface flex items-center gap-4">
-<div class="w-12 h-12 shrink-0 bg-primary/10 border border-primary flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[26px]">handshake</span></div>
-<p class="font-body-md text-sm md:text-base font-semibold text-on-surface">Jointly organized with ISI Kolkata</p>
-</div>
-<div class="p-5 border border-on-surface bg-surface flex items-center gap-4">
-<div class="w-12 h-12 shrink-0 bg-primary/10 border border-primary flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[26px]">featured_seasonal_and_gifts</span></div>
-<p class="font-body-md text-sm md:text-base font-semibold text-on-surface">Free registration, kit &amp; daily lunch</p>
-</div>
-<div class="p-5 border border-on-surface bg-surface flex items-center gap-4">
-<div class="w-12 h-12 shrink-0 bg-primary/10 border border-primary flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[26px]">verified_user</span></div>
-<p class="font-body-md text-sm md:text-base font-semibold text-on-surface">MeitY certificate on successful completion by registered participants.</p>
-</div>
-<div class="p-5 border border-on-surface bg-surface flex items-center gap-4">
-<div class="w-12 h-12 shrink-0 bg-primary/10 border border-primary flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[26px]">groups</span></div>
-<p class="font-body-md text-sm md:text-base font-semibold text-on-surface">Faculty &amp; select research scholars: Maths, Stats, CS, IT, Engineering</p>
-</div>
-</div>
-</div>
-
-<!-- Organisers -->
-<div class="border-t border-on-surface px-6 md:px-8 py-4 bg-surface">
-<span class="font-label-sm text-xs uppercase tracking-widest text-primary font-bold">// Organized by</span>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-on-surface border-t border-on-surface">
-<div class="p-6 bg-white flex flex-col gap-4">
-<img class="h-20 w-auto max-w-full object-contain object-left" src="Presidency_University,_Kolkata_Logo.svg.webp" alt="Presidency University, Kolkata"/>
-<div><h4 class="font-headline-sm text-sm uppercase font-bold text-on-surface">Presidency University, Kolkata</h4><p class="font-body-sm text-xs text-on-surface-variant mt-1">Department of Mathematics. Est. 1817. 86/1 College Street, Kolkata 700073.</p></div>
-</div>
-
-<div class="p-6 bg-white flex flex-col gap-4">
-<img class="h-[272px] -mt-[106px] -mb-[86px] relative top-[21px] w-auto max-w-full object-contain object-left pointer-events-none" src="croww%20logo.png" alt="CROW"/>
-<div><h4 class="font-headline-sm text-sm uppercase font-bold text-on-surface">CROW</h4><p class="font-body-sm text-xs text-on-surface-variant mt-1">Computational Research &amp; Operations Wing.</p></div>
-</div>
-
-<div class="p-6 bg-white flex flex-col gap-4">
-<img class="h-20 w-auto max-w-full object-contain object-left" src="isi_logo_navy_transparent.svg" alt="Indian Statistical Institute, Kolkata"/>
-<div><h4 class="font-headline-sm text-sm uppercase font-bold text-on-surface">Indian Statistical Institute, Kolkata</h4><p class="font-body-sm text-xs text-on-surface-variant mt-1">Hub institute and joint organiser.</p></div>
-</div>
-
-<div class="p-6 bg-white flex flex-col gap-4">
-<img class="h-20 w-auto max-w-full object-contain object-left" src="isea_backgroundless.svg" alt="ISEA"/>
-<div><h4 class="font-headline-sm text-sm uppercase font-bold text-on-surface">ISEA Phase-III · MeitY</h4><p class="font-body-sm text-xs text-on-surface-variant mt-1">Information Security Education &amp; Awareness, Govt. of India.</p></div>
-</div>
-</div>
-</section>
-
 <!-- 03 SPEAKERS -->
 <section id="speakers" class="w-full border-b border-on-surface">
 <div class="px-6 md:px-8 py-5 border-b border-on-surface bg-white flex flex-wrap items-center justify-between gap-2">
 <div class="flex items-baseline gap-3"><span class="font-display-hero text-2xl md:text-3xl font-bold text-primary">03</span><span class="text-primary font-bold text-xl">//</span><h2 class="font-headline-lg text-2xl md:text-3xl uppercase tracking-tight font-bold">Speakers</h2></div>
-<span class="font-label-sm text-xs uppercase tracking-widest border border-on-surface px-3 py-1 bg-surface font-bold">To be declared</span>
+<span class="font-label-sm text-xs uppercase tracking-widest border border-on-surface px-3 py-1 bg-surface font-bold">More to be declared</span>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-on-surface bg-white [&>article]:border-b [&>article]:border-on-surface">
+
+<!-- SPEAKER 01 : CONFIRMED (with photo) -->
 <article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-01</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-01</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">Speaker</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary overflow-hidden border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+<img class="absolute inset-0 w-full h-full object-cover object-top" src="speakers/speaker-01.png" alt="Speaker Name" loading="lazy"/>
+</div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">Speaker Name</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">Designation, Institute</p></div>
+</article>
+
+<!-- SPEAKERS 02–14 : TBD -->
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-02</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+</article>
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-03</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+</article>
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-04</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+</article>
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-05</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+</article>
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-06</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+</article>
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-07</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
-<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
-<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
-<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
-<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
-<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
-</article><article class="flex flex-col bg-surface">
+</article>
+<article class="flex flex-col bg-surface">
 <div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-08</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
 <div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
 <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
 <span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
 <div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
 </article>
+<article class="flex flex-col bg-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-09</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
+<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
+</article>
+<article class="flex flex-col bg-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-10</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
+<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
+</article>
+<article class="flex flex-col bg-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-11</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
+<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
+</article>
+<article class="flex flex-col bg-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-12</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
+<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
+</article>
+<article class="flex flex-col bg-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-13</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
+<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
+</article>
+<article class="flex flex-col bg-surface">
+<div class="p-3 border-b border-on-surface flex items-center justify-between bg-white"><span class="font-label-sm text-xs font-bold font-mono">#SPKR-14</span><span class="font-label-sm text-xs uppercase tracking-wider text-primary font-bold bg-primary/10 px-2 py-0.5 border border-primary">TBD</span></div>
+<div class="relative w-full aspect-[4/5] bg-primary flex items-center justify-center border-b border-on-surface">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary to-secondary"></div>
+<span class="relative font-display-hero text-6xl font-bold text-white/90 tracking-tight">TBD</span></div>
+<div class="p-4"><h3 class="font-headline-sm text-base uppercase font-bold text-on-surface">To Be Declared</h3><p class="font-label-sm text-xs text-primary font-bold uppercase tracking-wider mt-1">TBD</p></div>
+</article>
+
 </div>
 </section>
-
-<!-- 04 SCHEDULE -->
-<section id="schedule" class="w-full border-b border-on-surface">
-<div class="px-6 md:px-8 py-5 border-b border-on-surface bg-white flex flex-wrap items-center justify-between gap-2">
-<div class="flex items-baseline gap-3">
-<span class="font-display-hero text-2xl md:text-3xl font-bold text-primary">04</span>
-<span class="text-primary font-bold text-xl">//</span>
-<h2 class="font-headline-lg text-2xl md:text-3xl uppercase tracking-tight font-bold">Schedule</h2>
-</div>
-<span class="font-label-sm text-xs uppercase tracking-widest border border-on-surface px-3 py-1 bg-surface font-bold">2–6 Nov 2026 · To be declared</span>
-</div>
-
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-px bg-on-surface">
-<div class="p-5 md:p-6 bg-white flex flex-col gap-4 min-h-[200px]">
-<div><span class="font-label-sm text-xs text-primary font-bold font-mono">DAY 1</span><div class="font-display-hero text-2xl font-bold text-on-surface leading-tight">2 NOV</div><span class="font-label-sm text-[11px] text-on-surface-variant font-mono">MON</span></div>
-<div class="mt-auto border border-dashed border-primary bg-primary/5 py-6 text-center"><span class="font-display-hero text-3xl font-bold text-primary">TBD</span></div>
-</div>
-<div class="p-5 md:p-6 bg-white flex flex-col gap-4 min-h-[200px]">
-<div><span class="font-label-sm text-xs text-primary font-bold font-mono">DAY 2</span><div class="font-display-hero text-2xl font-bold text-on-surface leading-tight">3 NOV</div><span class="font-label-sm text-[11px] text-on-surface-variant font-mono">TUE</span></div>
-<div class="mt-auto border border-dashed border-primary bg-primary/5 py-6 text-center"><span class="font-display-hero text-3xl font-bold text-primary">TBD</span></div>
-</div>
-<div class="p-5 md:p-6 bg-white flex flex-col gap-4 min-h-[200px]">
-<div><span class="font-label-sm text-xs text-primary font-bold font-mono">DAY 3</span><div class="font-display-hero text-2xl font-bold text-on-surface leading-tight">4 NOV</div><span class="font-label-sm text-[11px] text-on-surface-variant font-mono">WED</span></div>
-<div class="mt-auto border border-dashed border-primary bg-primary/5 py-6 text-center"><span class="font-display-hero text-3xl font-bold text-primary">TBD</span></div>
-</div>
-<div class="p-5 md:p-6 bg-white flex flex-col gap-4 min-h-[200px]">
-<div><span class="font-label-sm text-xs text-primary font-bold font-mono">DAY 4</span><div class="font-display-hero text-2xl font-bold text-on-surface leading-tight">5 NOV</div><span class="font-label-sm text-[11px] text-on-surface-variant font-mono">THU</span></div>
-<div class="mt-auto border border-dashed border-primary bg-primary/5 py-6 text-center"><span class="font-display-hero text-3xl font-bold text-primary">TBD</span></div>
-</div>
-<div class="p-5 md:p-6 bg-white flex flex-col gap-4 min-h-[200px]">
-<div><span class="font-label-sm text-xs text-primary font-bold font-mono">DAY 5</span><div class="font-display-hero text-2xl font-bold text-on-surface leading-tight">6 NOV</div><span class="font-label-sm text-[11px] text-on-surface-variant font-mono">FRI</span></div>
-<div class="mt-auto border border-dashed border-primary bg-primary/5 py-6 text-center"><span class="font-display-hero text-3xl font-bold text-primary">TBD</span></div>
-</div>
-</div>
-</section>
-
-<!-- 05 REGISTER -->
-<section id="register" class="w-full bg-white">
-<div class="px-6 md:px-8 py-5 border-b border-on-surface bg-white flex flex-wrap items-center justify-between gap-2">
-<div class="flex items-baseline gap-3">
-<span class="font-display-hero text-2xl md:text-3xl font-bold text-primary">05</span>
-<span class="text-primary font-bold text-xl">//</span>
-<h2 class="font-headline-lg text-2xl md:text-3xl uppercase tracking-tight font-bold">Register</h2>
-</div>
-<span class="font-label-sm text-xs uppercase tracking-widest bg-primary text-white px-3 py-1 font-bold">Fee: NIL</span>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2">
-<div class="p-8 md:p-14 flex flex-col justify-center gap-6 border-b md:border-b-0 md:border-r border-on-surface">
-<h3 class="font-display-hero text-4xl md:text-5xl font-bold tracking-tight text-primary uppercase leading-none">Register here</h3>
-<p class="font-body-md text-base text-on-surface-variant">Limited seats. Shortlisted candidates will be notified by email.</p>
-<a href="https://faas.isea.app/formview/FDP20261007YTCF" target="_blank" rel="noopener" class="group inline-flex items-center justify-between gap-4 bg-primary text-white px-6 py-5 font-label-lg text-sm uppercase tracking-wider font-bold border border-on-surface hover:bg-on-surface transition-colors max-w-md">Open registration portal<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
-</div>
-
-<div class="p-8 md:p-14 bg-surface-container-low flex flex-col items-center justify-center gap-4">
-<div class="relative p-4 border-2 border-on-surface bg-white shadow-md w-64 h-64 md:w-72 md:h-72">
-<div class="absolute top-1 left-1 font-mono text-[10px] text-primary font-bold">+</div>
-<div class="absolute top-1 right-1 font-mono text-[10px] text-primary font-bold">+</div>
-<div class="absolute bottom-1 left-1 font-mono text-[10px] text-primary font-bold">+</div>
-<div class="absolute bottom-1 right-1 font-mono text-[10px] text-primary font-bold">+</div>
-
-<!-- Original QR code preserved -->
-<svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 33 33" shape-rendering="crispEdges" role="img" aria-label="QR code linking to the registration portal">
-<rect x="-2" y="-2" width="33" height="33" fill="#fff"/>
-<path d="M0,0h1v1h-1zM1,0h1v1h-1zM2,0h1v1h-1zM3,0h1v1h-1zM4,0h1v1h-1zM5,0h1v1h-1zM6,0h1v1h-1zM8,0h1v1h-1zM10,0h1v1h-1zM12,0h1v1h-1zM14,0h1v1h-1zM18,0h1v1h-1zM19,0h1v1h-1zM20,0h1v1h-1zM22,0h1v1h-1zM23,0h1v1h-1zM24,0h1v1h-1zM25,0h1v1h-1zM26,0h1v1h-1zM27,0h1v1h-1zM28,0h1v1h-1zM0,1h1v1h-1zM6,1h1v1h-1zM9,1h1v1h-1zM10,1h1v1h-1zM11,1h1v1h-1zM12,1h1v1h-1zM13,1h1v1h-1zM14,1h1v1h-1zM18,1h1v1h-1zM22,1h1v1h-1zM28,1h1v1h-1zM0,2h1v1h-1zM2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM6,2h1v1h-1zM8,2h1v1h-1zM9,2h1v1h-1zM10,2h1v1h-1zM13,2h1v1h-1zM16,2h1v1h-1zM20,2h1v1h-1zM22,2h1v1h-1zM24,2h1v1h-1zM25,2h1v1h-1zM26,2h1v1h-1zM28,2h1v1h-1zM0,3h1v1h-1zM2,3h1v1h-1zM3,3h1v1h-1zM4,3h1v1h-1zM6,3h1v1h-1zM8,3h1v1h-1zM9,3h1v1h-1zM10,3h1v1h-1zM12,3h1v1h-1zM13,3h1v1h-1zM15,3h1v1h-1zM16,3h1v1h-1zM17,3h1v1h-1zM19,3h1v1h-1zM22,3h1v1h-1zM24,3h1v1h-1zM25,3h1v1h-1zM26,3h1v1h-1zM28,3h1v1h-1zM0,4h1v1h-1zM2,4h1v1h-1zM3,4h1v1h-1zM4,4h1v1h-1zM6,4h1v1h-1zM8,4h1v1h-1zM11,4h1v1h-1zM12,4h1v1h-1zM15,4h1v1h-1zM19,4h1v1h-1zM20,4h1v1h-1zM22,4h1v1h-1zM24,4h1v1h-1zM25,4h1v1h-1zM26,4h1v1h-1zM28,4h1v1h-1zM0,5h1v1h-1zM6,5h1v1h-1zM10,5h1v1h-1zM11,5h1v1h-1zM14,5h1v1h-1zM16,5h1v1h-1zM17,5h1v1h-1zM18,5h1v1h-1zM19,5h1v1h-1zM22,5h1v1h-1zM28,5h1v1h-1zM0,6h1v1h-1zM1,6h1v1h-1zM2,6h1v1h-1zM3,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM10,6h1v1h-1zM12,6h1v1h-1zM14,6h1v1h-1zM16,6h1v1h-1zM18,6h1v1h-1zM20,6h1v1h-1zM22,6h1v1h-1zM23,6h1v1h-1zM24,6h1v1h-1zM25,6h1v1h-1zM26,6h1v1h-1zM27,6h1v1h-1zM28,6h1v1h-1zM10,7h1v1h-1zM12,7h1v1h-1zM14,7h1v1h-1zM15,7h1v1h-1zM17,7h1v1h-1zM18,7h1v1h-1zM20,7h1v1h-1zM0,8h1v1h-1zM1,8h1v1h-1zM2,8h1v1h-1zM3,8h1v1h-1zM6,8h1v1h-1zM8,8h1v1h-1zM10,8h1v1h-1zM11,8h1v1h-1zM12,8h1v1h-1zM17,8h1v1h-1zM18,8h1v1h-1zM19,8h1v1h-1zM20,8h1v1h-1zM21,8h1v1h-1zM24,8h1v1h-1zM25,8h1v1h-1zM26,8h1v1h-1zM28,8h1v1h-1zM4,9h1v1h-1zM7,9h1v1h-1zM8,9h1v1h-1zM10,9h1v1h-1zM12,9h1v1h-1zM14,9h1v1h-1zM19,9h1v1h-1zM20,9h1v1h-1zM21,9h1v1h-1zM22,9h1v1h-1zM24,9h1v1h-1zM28,9h1v1h-1zM0,10h1v1h-1zM5,10h1v1h-1zM6,10h1v1h-1zM7,10h1v1h-1zM8,10h1v1h-1zM9,10h1v1h-1zM10,10h1v1h-1zM11,10h1v1h-1zM12,10h1v1h-1zM14,10h1v1h-1zM20,10h1v1h-1zM21,10h1v1h-1zM22,10h1v1h-1zM24,10h1v1h-1zM26,10h1v1h-1zM27,10h1v1h-1zM0,11h1v1h-1zM1,11h1v1h-1zM9,11h1v1h-1zM10,11h1v1h-1zM13,11h1v1h-1zM14,11h1v1h-1zM16,11h1v1h-1zM19,11h1v1h-1zM28,11h1v1h-1zM0,12h1v1h-1zM1,12h1v1h-1zM2,12h1v1h-1zM6,12h1v1h-1zM9,12h1v1h-1zM10,12h1v1h-1zM12,12h1v1h-1zM13,12h1v1h-1zM15,12h1v1h-1zM16,12h1v1h-1zM17,12h1v1h-1zM20,12h1v1h-1zM23,12h1v1h-1zM25,12h1v1h-1zM26,12h1v1h-1zM0,13h1v1h-1zM2,13h1v1h-1zM4,13h1v1h-1zM8,13h1v1h-1zM9,13h1v1h-1zM11,13h1v1h-1zM12,13h1v1h-1zM16,13h1v1h-1zM19,13h1v1h-1zM22,13h1v1h-1zM26,13h1v1h-1zM27,13h1v1h-1zM28,13h1v1h-1zM1,14h1v1h-1zM6,14h1v1h-1zM7,14h1v1h-1zM8,14h1v1h-1zM11,14h1v1h-1zM13,14h1v1h-1zM16,14h1v1h-1zM18,14h1v1h-1zM19,14h1v1h-1zM20,14h1v1h-1zM23,14h1v1h-1zM26,14h1v1h-1zM27,14h1v1h-1zM28,14h1v1h-1zM0,15h1v1h-1zM3,15h1v1h-1zM4,15h1v1h-1zM7,15h1v1h-1zM8,15h1v1h-1zM10,15h1v1h-1zM11,15h1v1h-1zM15,15h1v1h-1zM16,15h1v1h-1zM24,15h1v1h-1zM27,15h1v1h-1zM3,16h1v1h-1zM4,16h1v1h-1zM6,16h1v1h-1zM9,16h1v1h-1zM10,16h1v1h-1zM13,16h1v1h-1zM14,16h1v1h-1zM18,16h1v1h-1zM20,16h1v1h-1zM21,16h1v1h-1zM23,16h1v1h-1zM24,16h1v1h-1zM25,16h1v1h-1zM27,16h1v1h-1zM2,17h1v1h-1zM3,17h1v1h-1zM4,17h1v1h-1zM5,17h1v1h-1zM8,17h1v1h-1zM9,17h1v1h-1zM13,17h1v1h-1zM14,17h1v1h-1zM18,17h1v1h-1zM20,17h1v1h-1zM21,17h1v1h-1zM23,17h1v1h-1zM25,17h1v1h-1zM26,17h1v1h-1zM27,17h1v1h-1zM0,18h1v1h-1zM2,18h1v1h-1zM3,18h1v1h-1zM5,18h1v1h-1zM6,18h1v1h-1zM7,18h1v1h-1zM9,18h1v1h-1zM10,18h1v1h-1zM12,18h1v1h-1zM15,18h1v1h-1zM17,18h1v1h-1zM21,18h1v1h-1zM23,18h1v1h-1zM24,18h1v1h-1zM26,18h1v1h-1zM3,19h1v1h-1zM5,19h1v1h-1zM10,19h1v1h-1zM12,19h1v1h-1zM14,19h1v1h-1zM15,19h1v1h-1zM16,19h1v1h-1zM17,19h1v1h-1zM19,19h1v1h-1zM21,19h1v1h-1zM22,19h1v1h-1zM23,19h1v1h-1zM26,19h1v1h-1zM0,20h1v1h-1zM1,20h1v1h-1zM2,20h1v1h-1zM4,20h1v1h-1zM6,20h1v1h-1zM9,20h1v1h-1zM16,20h1v1h-1zM17,20h1v1h-1zM18,20h1v1h-1zM20,20h1v1h-1zM21,20h1v1h-1zM22,20h1v1h-1zM23,20h1v1h-1zM24,20h1v1h-1zM25,20h1v1h-1zM26,20h1v1h-1zM8,21h1v1h-1zM9,21h1v1h-1zM14,21h1v1h-1zM15,21h1v1h-1zM16,21h1v1h-1zM17,21h1v1h-1zM18,21h1v1h-1zM20,21h1v1h-1zM24,21h1v1h-1zM25,21h1v1h-1zM26,21h1v1h-1zM27,21h1v1h-1zM28,21h1v1h-1zM0,22h1v1h-1zM1,22h1v1h-1zM2,22h1v1h-1zM3,22h1v1h-1zM4,22h1v1h-1zM5,22h1v1h-1zM6,22h1v1h-1zM10,22h1v1h-1zM11,22h1v1h-1zM12,22h1v1h-1zM13,22h1v1h-1zM16,22h1v1h-1zM17,22h1v1h-1zM19,22h1v1h-1zM20,22h1v1h-1zM22,22h1v1h-1zM24,22h1v1h-1zM25,22h1v1h-1zM27,22h1v1h-1zM0,23h1v1h-1zM6,23h1v1h-1zM10,23h1v1h-1zM11,23h1v1h-1zM13,23h1v1h-1zM14,23h1v1h-1zM15,23h1v1h-1zM18,23h1v1h-1zM19,23h1v1h-1zM20,23h1v1h-1zM24,23h1v1h-1zM25,23h1v1h-1zM0,24h1v1h-1zM2,24h1v1h-1zM3,24h1v1h-1zM4,24h1v1h-1zM6,24h1v1h-1zM12,24h1v1h-1zM14,24h1v1h-1zM17,24h1v1h-1zM20,24h1v1h-1zM21,24h1v1h-1zM22,24h1v1h-1zM23,24h1v1h-1zM24,24h1v1h-1zM26,24h1v1h-1zM28,24h1v1h-1zM0,25h1v1h-1zM2,25h1v1h-1zM3,25h1v1h-1zM4,25h1v1h-1zM6,25h1v1h-1zM8,25h1v1h-1zM10,25h1v1h-1zM11,25h1v1h-1zM12,25h1v1h-1zM13,25h1v1h-1zM15,25h1v1h-1zM17,25h1v1h-1zM19,25h1v1h-1zM20,25h1v1h-1zM21,25h1v1h-1zM23,25h1v1h-1zM24,25h1v1h-1zM25,25h1v1h-1zM28,25h1v1h-1zM0,26h1v1h-1zM2,26h1v1h-1zM3,26h1v1h-1zM4,26h1v1h-1zM6,26h1v1h-1zM8,26h1v1h-1zM9,26h1v1h-1zM13,26h1v1h-1zM18,26h1v1h-1zM19,26h1v1h-1zM23,26h1v1h-1zM26,26h1v1h-1zM28,26h1v1h-1zM0,27h1v1h-1zM6,27h1v1h-1zM8,27h1v1h-1zM9,27h1v1h-1zM14,27h1v1h-1zM16,27h1v1h-1zM20,27h1v1h-1zM25,27h1v1h-1zM27,27h1v1h-1zM0,28h1v1h-1zM1,28h1v1h-1zM2,28h1v1h-1zM3,28h1v1h-1zM4,28h1v1h-1zM5,28h1v1h-1zM6,28h1v1h-1zM8,28h1v1h-1zM9,28h1v1h-1zM10,28h1v1h-1zM11,28h1v1h-1zM12,28h1v1h-1zM16,28h1v1h-1zM18,28h1v1h-1zM19,28h1v1h-1zM20,28h1v1h-1zM21,28h1v1h-1zM27,28h1v1h-1z" fill="#0f172a"/>
-</svg>
-</div>
-<span class="font-label-sm text-xs uppercase tracking-widest font-bold">Scan to register</span>
-</div>
-</div>
-</section>
-</main>
-
-<!-- FOOTER -->
-<footer class="w-full bg-white border-t border-on-surface">
-<div class="px-6 md:px-8 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-<div>
-<p class="font-label-lg text-sm uppercase font-bold tracking-wider">Department of Mathematics · Presidency University, Kolkata · CROW</p>
-<p class="font-body-sm text-xs text-on-surface-variant mt-1">In joint collaboration with ISI Kolkata · ISEA Project Phase-III, MeitY, Govt. of India</p>
-</div>
-<p class="font-label-sm text-xs uppercase text-on-surface-variant">© 2026 Presidency University</p>
-</div>
-</footer>
-
-</body>
-</html>
